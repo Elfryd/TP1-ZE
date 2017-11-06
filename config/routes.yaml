@@ -1,0 +1,8 @@
+app_hello_index:
+    path: /
+    defaults: { _controller: 'App\Controller\HelloController::index' }
+
+# first, run composer req annotations
+controllers:
+    resource: ../src/Controller/
+    type: annotation
